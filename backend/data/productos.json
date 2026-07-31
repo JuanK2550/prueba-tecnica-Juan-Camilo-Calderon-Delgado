@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1785533450368,
+    "nombre": "Queso Campesino",
+    "precio": 8500,
+    "stock": 20,
+    "categoria": "Lácteos"
+  },
+  {
+    "id": 1785535191063,
+    "nombre": "chocorramo",
+    "precio": 13000,
+    "stock": 23,
+    "categoria": "dulcesito"
+  }
+]
