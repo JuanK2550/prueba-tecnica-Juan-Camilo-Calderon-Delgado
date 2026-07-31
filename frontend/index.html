@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Productos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Sistema de Gestión de Productos</h1>
+
+    <form id="formProducto">
+
+        <input type="hidden" id="id">
+
+        <input
+            type="text"
+            id="nombre"
+            placeholder="Nombre del producto (ej. queso campesino)"
+            required
+        >
+
+        <input
+            type="number"
+            id="precio"
+            placeholder="Precio"
+            required
+        >
+
+        <input
+            type="number"
+            id="stock"
+            placeholder="Stock"
+            required
+        >
+
+        <input
+            type="text"
+            id="categoria"
+            placeholder="Categoría"
+            required
+        >
+
+        <button type="submit">
+            Guardar Producto
+        </button>
+
+    </form>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Categoría</th>
+                <th>Acciones</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="tablaProductos">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
