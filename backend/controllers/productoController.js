@@ -11,7 +11,7 @@ function crearProducto(req, res) {
 
     if (!nombre || !categoria) {
         return res.status(400).json({
-            mensaje: "Nombre y categoría son obligatorios"
+            mensaje: "Nombre,categoría precio y stock son obligatorios"
         });
     }
 
